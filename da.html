@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>그래프 종류 문제</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #F5F5F5;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			font-size: 36px;
+			color: #333;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+		}
+		p {
+			font-size: 24px;
+			margin: 30px 0 10px 0;
+			color: #333;
+			text-align: center;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 30px;
+			background-color: #FFF;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+			width: 70%;
+			max-width: 600px;
+			min-width: 400px;
+		}
+		input[type="radio"] {
+			margin: 10px;
+		}
+		input[type="submit"] {
+			background-color: #333;
+			color: #FFF;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 20px;
+			cursor: pointer;
+			margin-top: 20px;
+			transition: background-color 0.2s ease-in-out;
+		}
+		input[type="submit"]:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<h1>그래프 종류 맞추기</h1>
+	<form>
+		<p>2021년 1월부터 6월까지 매월 전체 매출액을 비교하고 싶다면?</p>
+		<input type="radio" name="q1" value="bar"> 막대 그래프
+		<input type="radio" name="q1" value="line"> 선 그래프
+		<input type="radio" name="q1" value="pie"> 원 그래프
+		<input type="radio" name="q1" value="scatter"> 산점도
+		<input type="radio" name="q1" value="histogram"> 히스토그램
+
+		<p>한 학기 동안 국어, 수학, 영어, 과학, 사회과목의 성적을 비교하고 싶다면?</p>
+		<input type="radio" name="q2" value="bar"> 막대 그래프
+		<input type="radio" name="q2" value="line"> 선 그래프
+		<input type="radio" name="q2" value="pie"> 원 그래프
+		<input type="radio" name="q2" value="scatter"> 산점도
+        <input type="radio" name="q2" value="histogram"> 히스토그램
+		
+
+	<p>학생들의 몸무게와 키의 관계를 알아보고 싶다면?</p>
+	<input type="radio" name="q3" value="scatter"> 산점도
+	<input type="radio" name="q3" value="line"> 선 그래프
+	<input type="radio" name="q3" value="bar"> 막대 그래프
+	<input type="radio" name="q3" value="pie"> 원 그래프
+	
+    <p>각 도시별 인구와 범죄율의 상관관계를 파악하고 싶다면?</p>
+		<input type="radio" name="q4" value="bar"> 막대 그래프
+		<input type="radio" name="q4" value="line"> 선 그래프
+		<input type="radio" name="q4" value="pie"> 원 그래프
+		<input type="radio" name="q4" value="scatter"> 산점도
+        <input type="radio" name="q4" value="histogram"> 히스토그램
+        
+        <p>한 학년 내 학생들의 키의 분포를 알아보고 싶다면?</p>
+		<input type="radio" name="q5" value="bar"> 막대 그래프
+		<input type="radio" name="q5" value="line"> 선 그래프
+		<input type="radio" name="q5" value="pie"> 원 그래프
+		<input type="radio" name="q5" value="scatter"> 산점도
+        <input type="radio" name="q5" value="histogram"> 히스토그램
+        
+        <p>국가별 인구 수를 비교하고 싶다면?</p>
+		<input type="radio" name="q6" value="bar"> 막대 그래프
+		<input type="radio" name="q6" value="line"> 선 그래프
+		<input type="radio" name="q6" value="pie"> 원 그래프
+		<input type="radio" name="q6" value="scatter"> 산점도
+        <input type="radio" name="q6" value="histogram"> 히스토그램
+        
+        <p>일별 기온 변화 추이를 확인하고 싶다면?</p>
+		<input type="radio" name="q7" value="bar"> 막대 그래프
+		<input type="radio" name="q7" value="line"> 선 그래프
+		<input type="radio" name="q7" value="pie"> 원 그래프
+		<input type="radio" name="q7" value="scatter"> 산점도
+        <input type="radio" name="q7" value="histogram"> 히스토그램
+        
+        <p>지출 항목별 비중을 파악하고 싶다면?</p>
+		<input type="radio" name="q8" value="bar"> 막대 그래프
+		<input type="radio" name="q8" value="line"> 선 그래프
+		<input type="radio" name="q8" value="pie"> 원 그래프
+		<input type="radio" name="q8" value="scatter"> 산점도
+        <input type="radio" name="q8" value="histogram"> 히스토그램
+        
+        <p>지출 항목별 비중을 파악하고 싶다면?</p>
+		<input type="radio" name="q9" value="bar"> 막대 그래프
+		<input type="radio" name="q9" value="line"> 선 그래프
+		<input type="radio" name="q9" value="pie"> 원 그래프
+		<input type="radio" name="q9" value="scatter"> 산점도
+        <input type="radio" name="q9" value="histogram"> 히스토그램
+        
+        <p>여러 신체 측정치 간의 관계를 확인하고 싶다면?</p>
+		<input type="radio" name="q10" value="bar"> 막대 그래프
+		<input type="radio" name="q10" value="line"> 선 그래프
+		<input type="radio" name="q10" value="pie"> 원 그래프
+		<input type="radio" name="q10" value="scatter"> 산점도
+        <input type="radio" name="q10" value="histogram"> 히스토그램
+        
+        <p>시험 점수 분포도를 확인하고 싶다면?</p>
+		<input type="radio" name="q11" value="bar"> 막대 그래프
+		<input type="radio" name="q11" value="line"> 선 그래프
+		<input type="radio" name="q11" value="pie"> 원 그래프
+		<input type="radio" name="q11" value="scatter"> 산점도
+        <input type="radio" name="q11" value="histogram"> 히스토그램
+        
+        
+	<input type="submit" value="제출">
+</form>
+</body>
+</html>
